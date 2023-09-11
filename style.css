@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+}
+.image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+section {
+    text-align: center;
+}
+#skills > ul > li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: beige;
+}
+#experience > ul > li {
+    background-color: beige;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#about {
+    padding: 40px 0;
+}
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#experience {
+    padding: 40px 0;
+}
+#resume,#details {
+    padding: 40px 0;
+}
+.resume-container a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.details-container a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+footer {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.logo {
+    width: 200px;
+    height: 80px;
+}
